@@ -60,10 +60,7 @@ html, body {
     justify-content:space-evenly;
     width: 100%;
     flex-wrap: nowrap;
-}
-header{
-    display:block;
-}
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -215,28 +212,28 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-between;
+    width:100%;
 }
 
 .bottom-content .text-container {
+    display: inline-block;
     padding-right: 4%;
+    width: 33%
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
-}
 
-footer {
-    width: 100%;
+
+}
+.final-section {
     background: black;
 }
 
 footer nav {
-    width: 60%;
+    max-width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -245,5 +242,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-;
+header {
+    display: block;
+    border-bottom: dotted lighgrey;
+
+}
+
+.container1 {
+    display:flex;
+    width 80%;
+}
+.second-section-about-page{
+    width: 48%;
 }
